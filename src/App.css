@@ -1,0 +1,64 @@
+#root {
+  font-family: "Titillium Web", sans-serif;
+  background: black;
+}
+
+#main {
+  border: 20px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height:94vh;
+  
+}
+
+#chuckItButton {
+  width: 200px;
+  height: 50px;
+  background: blueviolet;
+  color: whitesmoke;
+  font-family: "Titillium Web";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#chuckPhoto {
+  width: 200px;
+  height: 200px;
+  border: 10px solid blueviolet;
+  margin: 0.7rem;
+  border-radius: 50%;
+}
+
+
+
+#buttonPlusCategories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /*  border: 2px solid green; */
+}
+
+#text {
+  text-align: center;
+  font-family: "Titillium Web";
+  color: white;
+  font-size: 2rem;
+  width: 400px;
+}
+
+#jokeCategory {
+  width: 150px;
+  height:50px;
+  background: blueviolet;
+  color: whitesmoke;
+  margin: 1rem;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 1.5rem;
+  
+}
